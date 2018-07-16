@@ -2,10 +2,15 @@
 Tool to perform ETL processing for a given dataset.
 
 ##How to install
+```bash
+git clone https://github.com/santoshr1016/etl_hack.git
 
-git clone repo
+cd etl_hack
 
 pip install .
+
+python
+```
 
 ##How to run
 ```python
