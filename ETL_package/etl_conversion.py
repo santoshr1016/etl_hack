@@ -6,7 +6,7 @@ Date: 16th July, 2018
 
 from collections import OrderedDict
 
-ASPIRATION_TYPE = "turbo"
+ASPIRATION_TYPE = "std"
 ENGINE_LOCATION = "front"
 num_cylinders = {
     "one": 1,
