@@ -13,7 +13,7 @@ python
 ```
 
 ##How to run
-### Provide any load file as input with correct location else it take default args
+##### Provide any load file as input with correct location else it takes default arg
 ```python
 import ETL_package.etl_pipeline as pipe
 op = pipe.load()
@@ -25,5 +25,10 @@ import ETL_package.etl_pipeline as pipe
 op = pipe.load()
 ml_input = pipe.transform(op)
 ```
+##Removing package
+```bash
+pip uninstall ETL-package -y
+```
+
 ###TODOS
 Yet to implement hot encoding
