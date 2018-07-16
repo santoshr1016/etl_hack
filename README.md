@@ -13,6 +13,7 @@ python
 ```
 
 ##How to run
+### Provide any load file as input with correct location else it take default args
 ```python
 import ETL_package.etl_pipeline as pipe
 op = pipe.load()
