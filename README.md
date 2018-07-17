@@ -12,7 +12,7 @@ pip install .
 python
 ```
 
-##How to run
+## How to run
 ##### Provide any load file as input with correct location else it takes default arg
 ```python
 import ETL_package.etl_pipeline as pipe
@@ -25,10 +25,22 @@ import ETL_package.etl_pipeline as pipe
 op = pipe.load()
 ml_input = pipe.transform(op)
 ```
-##Removing package
+## Removing package
 ```bash
 pip uninstall ETL-package -y
 ```
 
-###TODOS
+# Design
+## Stage 1:
+Get the input from the file, removing the invalid line.
+
+## Stage 2:
+Extracting the data for the 8 columns only, Named tuples and Ordered Dictionary are used.
+
+Calling the transformation function for each column data.
+
+## Stage 3:
+Representing the output in desired way.
+
+### TODOS
 Yet to implement hot encoding
